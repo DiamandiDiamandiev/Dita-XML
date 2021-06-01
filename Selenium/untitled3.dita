@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="untitled3">
+    <title>How to find locators by Class Name</title>
+    <shortdesc>Locators can be found with many possible ways. One of them is by class name which is
+        the most reliable one after id.</shortdesc>
+    <taskbody>
+        <context>You will find out how to find locators by class name<p/></context>
+        <steps>
+            <step>
+                <cmd>Create a locator</cmd>
+            </step>
+            <step>
+                <cmd>Go to the dom in the web site and search for the class name of the given web
+                    element</cmd>
+            </step>
+            <step>
+                <cmd>Use lambda => after the locator's name</cmd>
+            </step>
+            <step>
+                <cmd>Use the command driver.FindBy(By.className()) after the lambda</cmd>
+            </step>
+            <step>
+                <cmd>Put the class into the by.className brackets as a string</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

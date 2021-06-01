@@ -2,7 +2,14 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Selenium</title>
-    <topichead navtitle="Locators"/>
-    <topichead navtitle="SpecFlow BDD"/>
+    <topichead navtitle="SpecFlow BDD">
+        <topicref href="untitled6.dita"/>
+        <topicref href="untitled4.dita"/>
+    </topichead>
+    <topichead navtitle="Locators">
+        <topicref href="untitled1.dita"/>
+        <topicref href="untitled2.dita"/>
+        <topicref href="untitled3.dita"/>
+    </topichead>
     <topichead navtitle="Hooks"/>
 </map>

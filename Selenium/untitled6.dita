@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="untitled6">
+    <title>How to add SpecFlow into your project</title>
+    <shortdesc>In order for the Ide to read your tests as BDD it needs a plug in named
+        SpecFlow</shortdesc>
+    <taskbody>
+        <context>
+            <p>Here you will learn how to add SpecFlow to your project</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open Visual Studio</cmd>
+            </step>
+            <step>
+                <cmd>Go to Extensions</cmd>
+            </step>
+            <step>
+                <cmd>Then go to Manage Extensions</cmd>
+            </step>
+            <step>
+                <cmd>Choose online</cmd>
+            </step>
+            <step>
+                <cmd>In the search box type SpecFlow</cmd>
+            </step>
+            <step>
+                <cmd>Hit the download button to begin the installation process</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

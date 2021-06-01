@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="untitled4">
+    <title>How to Create feature files</title>
+    <shortdesc>To run your test you need steps to be followed. In the future files you will write
+        down your steps. Every web page in the given web site needs a separte feature
+        file</shortdesc>
+    <taskbody>
+        <context>
+            <p>You will learn how to create feature files</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create a  sepate folder for the feature files in the project</cmd>
+            </step>
+            <step>
+                <cmd>Click with the right button of the mouse on the folder</cmd>
+            </step>
+            <step>
+                <cmd>Choose new item</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to SpecFlow</cmd>
+            </step>
+            <step>
+                <cmd>Choose the top option</cmd>
+            </step>
+            <step>
+                <cmd>Name the file in the name field</cmd>
+            </step>
+            <step>
+                <cmd>Click on Save </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

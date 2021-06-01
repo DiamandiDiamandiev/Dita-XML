@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="untitled1">
+    <title>How to create locator variables</title>
+    <shortdesc>In order to perform an automation test we need locators for the Selenium to perform
+        actions on</shortdesc>
+    <taskbody>
+        <context>
+            <p>In this topic we gonna found out how to create locators</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create a class named after the web page you are on ( every page of the web site
+                    must have separte class)</cmd>
+            </step>
+            <step>
+                <cmd>Create a variable as a private of type IWebElement</cmd>
+            </step>
+            <step>
+                <cmd>Name the variable</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
