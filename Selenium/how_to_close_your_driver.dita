@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_close_your_driver">
+    <title>How to close your webdriver</title>
+    <shortdesc>To finish your test successfully you have to close your driver</shortdesc>
+    <taskbody>
+        <prereq id="prereq_hzz_bgr_xpb">
+            <p>Read the document of how to create your webdriver :</p>
+        </prereq>
+        <context>
+            <p>Here you will learn how to make the hook to be able to finish your test</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to the Hooks class you have created </cmd>
+            </step>
+            <step>
+                <cmd>Close the webdriver in a method and use [AfterScenario] annotation over the
+                        method<image href="../After.PNG" id="image_uxs_tgr_xpb"/>
+                </cmd>
+            </step>
+            <step>
+                <cmd>Inherit the page hook into your class of the given page
+                        <image href="../Inheritance.PNG" id="image_hz5_5fr_xpb"/>
+                </cmd>
+            </step>
+        </steps>
+        <result id="result_s2d_ggr_xpb">
+            <p>You will be able to finish your test successfully </p>
+        </result>
+        <example id="example_sm5_hgr_xpb">If you want to run your next test you will have to create
+            a new webdriver. In order to create a new one you need to close the old one. That's why
+            its so important to close your driver</example>
+    </taskbody>
+</task>

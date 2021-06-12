@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what_is_ide">
+    <title>What is IDE</title>
+    <body>
+        <p>An integrated development environment (IDE) is a software application that provides
+            comprehensive facilities to computer programmers for software development. An IDE
+            normally consists of at least a source code editor, build automation tools and a
+            debugger. Some IDEs, such as NetBeans and Eclipse, contain the necessary compiler,
+            interpreter, or both; others, such as SharpDevelop and Lazarus, do not.</p>
+        <p>The boundary between an IDE and other parts of the broader software development
+            environment is not well-defined; sometimes a version control system or various tools to
+            simplify the construction of a graphical user interface (GUI) are integrated. Many
+            modern IDEs also have a class browser, an object browser, and a class hierarchy diagram
+            for use in object-oriented software development.</p>
+        <p>What to use IDE for : Syntax Highlighting </p>
+        <ul id="ul_snm_yjr_xpb">
+            <li><b>Highlight</b>
+                <image href="../Highlights.PNG" id="image_q44_zjr_xpb"/></li>
+        </ul>
+        <ul id="ul_ks1_dkr_xpb">
+            <li><b>Building Executables</b></li>
+            <li><b>Debugging </b>
+                <image href="../debugging.PNG" id="image_fd2_vkr_xpb"/></li>
+        </ul>
+        <ul id="ul_vcy_kkr_xpb">
+            <li><b>Coding On Your Computer</b></li>
+        </ul>
+    </body>
+</topic>

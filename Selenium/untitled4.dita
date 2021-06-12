@@ -3,15 +3,16 @@
 <task id="untitled4">
     <title>How to Create feature files</title>
     <shortdesc>To run your test you need steps to be followed. In the future files you will write
-        down your steps. Every web page in the given web site needs a separte feature
-        file</shortdesc>
+        down your steps. Every web page in the given web site needs a separate feature
+        file.</shortdesc>
     <taskbody>
         <context>
-            <p>You will learn how to create feature files</p>
+            <p>You will learn how to create feature files :</p>
         </context>
         <steps>
             <step>
-                <cmd>Create a  sepate folder for the feature files in the project</cmd>
+                <cmd>Create a separate  folder for the feature files in the project
+                        <image href="../Create%20feature.PNG" id="image_qmn_ybr_xpb"/></cmd>
             </step>
             <step>
                 <cmd>Click with the right button of the mouse on the folder</cmd>
@@ -29,8 +30,15 @@
                 <cmd>Name the file in the name field</cmd>
             </step>
             <step>
-                <cmd>Click on Save </cmd>
+                <cmd>Click on Add  <image href="../Feature%20create.PNG" id="image_dcb_dcr_xpb"
+                    /></cmd>
             </step>
         </steps>
+        <result id="result_ezq_fcr_xpb">
+            <p>You will be able to write down your tests.</p>
+            <p>For Example:</p>
+        </result>
+        <example id="example_sdm_hcr_xpb">You want to create a couple of tests for a
+            Login.</example>
     </taskbody>
 </task>

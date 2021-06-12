@@ -6,50 +6,158 @@
 <?xml-stylesheet type='text/css' href='file:/D:/Програми/Oxygen/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
 <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/C:/Users/user/Desktop/Selenium/selenium.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Selenium</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
     <title class="- topic/title ">Selenium</title>
-    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="SpecFlow BDD"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d86e14">SpecFlow BDD</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_1" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled6"><resourceid appid="untitled6" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">How to add SpecFlow into your project</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">In order for the Ide to read your tests as BDD it needs a plug in named         SpecFlow</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled4"><resourceid appid="untitled4" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">How to Create feature files</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To run your test you need steps to be followed. In the future files you will write         down your steps. Every web page in the given web site needs a separte feature         file</shortdesc></topicmeta></topicref></topichead>
-    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Locators"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d86e38">Locators</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_3" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled1"><resourceid appid="untitled1" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">How to create locator variables</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">In order to perform an automation test we need locators for the Selenium to perform         actions on</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled2"><resourceid appid="untitled2" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">How to find locators by Id</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Locators can be found with many possible ways. One of them is by Id which is the most         reliable one.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_5" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled3"><resourceid appid="untitled3" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">How to find locators by Class Name</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Locators can be found with many possible ways. One of them is by class name which is         the most reliable one after id.</shortdesc></topicmeta></topicref></topichead>
-    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Hooks"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d86e73">Hooks</navtitle></topicmeta></topichead>
-</opentopic:map><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d86e14" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">SpecFlow BDD</ph></title><task class="- topic/topic task/task " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="untitled6" oid="untitled6" specializations="@props/deliveryTarget">
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="what_is_ide"><resourceid appid="what_is_ide" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">What is IDE</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_2" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="what_is_selenium"><resourceid appid="what_is_selenium" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">What is Selenium</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_3" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="pros_and_cons_of_automation_testing"><resourceid appid="pros_and_cons_of_automation_testing" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Pros and cons of automation testing</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="SpecFlow BDD"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d106e41">SpecFlow BDD</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled6"><resourceid appid="untitled6" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">How to add SpecFlow into your project</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Your IDE needs a plugin called SpecFlow in order to functionate  properly and red         your tests.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_5" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled4"><resourceid appid="untitled4" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">How to Create feature files</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To run your test you need steps to be followed. In the future files you will write         down your steps. Every web page in the given web site needs a separate feature         file.</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Locators"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d106e66">Locators</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_6" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled1"><resourceid appid="untitled1" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">How to create locator variables</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">In order to perform an automation test we need locators for the Selenium to perform         actions on.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_7" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled2"><resourceid appid="untitled2" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">How to find locators by Id</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Locators can be found with many possible ways. One of them is by Id which is the most         reliable one.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_8" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled3"><resourceid appid="untitled3" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">How to find locators by Class Name</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Locators can be found with many possible ways. One of them is by class name which is         the most reliable one after id.</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Hooks"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d106e101">Hooks</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_9" type="task"><topicmeta class="- map/topicmeta " data-topic-id="untitled5"><resourceid appid="untitled5" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">How to create your webdriver</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">In order to run your test on a certain browser you need to do some architecture work         such as initiating the webdriver of the given browser you want</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_10" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_close_your_driver"><resourceid appid="how_to_close_your_driver" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">How to close your webdriver</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To finish your test successfully you have to close your driver</shortdesc></topicmeta></topicref></topichead>
+</opentopic:map><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="what_is_ide" oid="what_is_ide" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">What is IDE</ph></title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">An integrated development environment (IDE) is a software application that provides
+            comprehensive facilities to computer programmers for software development. An IDE
+            normally consists of at least a source code editor, build automation tools and a
+            debugger. Some IDEs, such as NetBeans and Eclipse, contain the necessary compiler,
+            interpreter, or both; others, such as SharpDevelop and Lazarus, do not.</p>
+        <p class="- topic/p ">The boundary between an IDE and other parts of the broader software development
+            environment is not well-defined; sometimes a version control system or various tools to
+            simplify the construction of a graphical user interface (GUI) are integrated. Many
+            modern IDEs also have a class browser, an object browser, and a class hierarchy diagram
+            for use in object-oriented software development.</p>
+        <p class="- topic/p ">What to use IDE for : Syntax Highlighting </p>
+        <ul class="- topic/ul " id="unique_1_Connect_42_ul_snm_yjr_xpb" nd:nd-id="ul_snm_yjr_xpb">
+            <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Highlight</b>
+                <image class="- topic/image " href="file:/C:/Users/user/Desktop/Highlights.PNG" id="unique_1_Connect_42_image_q44_zjr_xpb" nd:nd-id="image_q44_zjr_xpb" placement="inline"/></li>
+        </ul>
+        <ul class="- topic/ul " id="unique_1_Connect_42_ul_ks1_dkr_xpb" nd:nd-id="ul_ks1_dkr_xpb">
+            <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Building Executables</b></li>
+            <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Debugging </b>
+                <image class="- topic/image " href="file:/C:/Users/user/Desktop/debugging.PNG" id="unique_1_Connect_42_image_fd2_vkr_xpb" nd:nd-id="image_fd2_vkr_xpb" placement="inline"/></li>
+        </ul>
+        <ul class="- topic/ul " id="unique_1_Connect_42_ul_vcy_kkr_xpb" nd:nd-id="ul_vcy_kkr_xpb">
+            <li class="- topic/li "><b class="+ topic/ph hi-d/b ">Coding On Your Computer</b></li>
+        </ul>
+    </body>
+</topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="what_is_selenium" oid="what_is_selenium" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">What is Selenium</ph></title>
+    <body class="- topic/body ">
+        <p class="- topic/p "> Selenium is a free (open-source) automated testing framework used to validate web
+            applications across different browsers and platforms. You can use multiple programming
+            languages like Java, C#, Python etc to create Selenium Test Scripts. Testing done using
+            the Selenium testing tool is usually referred to as Selenium Testing.</p>
+        <p class="- topic/p ">Selenium Software is not just a single tool but a suite of software, each piece catering
+            to different Selenium QA testing needs of an organization.Here is the list of  tools</p>
+        <image class="- topic/image " href="file:/C:/Users/user/Desktop/SeleniumSuite.jpg" id="unique_2_Connect_42_image_gvv_cjr_xpb" nd:nd-id="image_gvv_cjr_xpb" placement="inline"/>
+    </body>
+</topic><topic break-before="true" is-chapter="true" class="- topic/topic " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="pros_and_cons_of_automation_testing" oid="pros_and_cons_of_automation_testing" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Pros and cons of automation testing</ph></title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">Just like everything - automation testing has its pros and cons. Here we will look at the
+            pros and cons of the automation process.</p>
+        <table class="- topic/table " colsep="1" frame="all" id="unique_3_Connect_42_table_czz_kyq_xpb" nd:nd-id="table_czz_kyq_xpb" rowsep="1">
+            <tgroup class="- topic/tgroup " cols="2">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;10:65" xtrf="file:/C:/Users/user/Desktop/Selenium/pros_and_cons_of_automation_testing.dita" style="width:50%;"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;11:65" xtrf="file:/C:/Users/user/Desktop/Selenium/pros_and_cons_of_automation_testing.dita" style="width:50%;"/>
+                <thead class="- topic/thead ">
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Pros</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Cons</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody ">
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">Reduce the time required to regression</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Unstable outcomes and false test alarms due to their poor design and
+                            implementation</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">After fixing all bugs or when new functionality is added, report on
+                            product status as quickly as possible;</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Mistakes in automated tests lead to errors and omissions</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">Get an infinite number of test runs when using continuous software
+                            development mechanisms</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Recruitment of employees with knowledge of programming languages and
+                            testing technologies;</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">Reduce the number of manual tests</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">High cost of implementation</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">Automate complex test cases</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">Due to strict algorithms, automated tests can find only part of
+                            mistakes</entry>
+                    </row>
+                    <row class="- topic/row ">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">Detect errors overlooked during manual testing</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">Much time is needed to support automation</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p class="- topic/p ">In addition there are couple of things to take care when you automate such as </p>
+        <ol class="- topic/ol " id="unique_3_Connect_42_ol_rrq_yyq_xpb" nd:nd-id="ol_rrq_yyq_xpb">
+            <li class="- topic/li ">Not all test cases need to be automated</li>
+            <li class="- topic/li ">Time needed for automation testing is comparable to the time spent on software
+                development</li>
+            <li class="- topic/li ">Before writing automated tests you need to work on test system architecture.
+                Otherwise apart from manual testing you will need to support automated tests</li>
+            <li class="- topic/li ">When implementing automation, it is impossible to foresee all the risks and
+                challenges you might face in the future</li>
+        </ol>
+    </body>
+</topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d106e41" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">SpecFlow BDD</ph></title><task class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="untitled6" oid="untitled6" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to add SpecFlow into your project</ph></title>
-    <shortdesc class="- topic/shortdesc ">In order for the Ide to read your tests as BDD it needs a plug in named
-        SpecFlow</shortdesc>
+    <shortdesc class="- topic/shortdesc ">Your IDE needs a plugin called SpecFlow in order to functionate  properly and red
+        your tests.</shortdesc>
     <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_4_Connect_42_prereq_ktc_mzq_xpb" nd:nd-id="prereq_ktc_mzq_xpb">
+            <p class="- topic/p ">Get familiar with what IDE is  </p>
+        </prereq>
         <context class="- topic/section task/context ">
-            <p class="- topic/p ">Here you will learn how to add SpecFlow to your project</p>
+            <p class="- topic/p ">Here you will learn how to add SpecFlow into your project :</p>
         </context>
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Open Visual Studio</cmd>
+                <cmd class="- topic/ph task/cmd ">Open Visual Studio.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Go to Extensions</cmd>
+                <cmd class="- topic/ph task/cmd ">Go to Extensions.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Then go to Manage Extensions</cmd>
+                <cmd class="- topic/ph task/cmd ">Then go to Manage Extensions.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Choose online</cmd>
+                <cmd class="- topic/ph task/cmd ">Choose online.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">In the search box type SpecFlow</cmd>
+                <cmd class="- topic/ph task/cmd ">In the search box type SpecFlow.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Hit the download button to begin the installation process</cmd>
+                <cmd class="- topic/ph task/cmd ">Hit the download button to begin the installation procces <image class="- topic/image " href="file:/C:/Users/user/Desktop/Specflow.PNG" id="unique_4_Connect_42_image_ivb_r1r_xpb" nd:nd-id="image_ivb_r1r_xpb" placement="inline"/></cmd>
             </step>
         </steps>
+        <result class="- topic/section task/result " id="unique_4_Connect_42_result_lhg_v1r_xpb" nd:nd-id="result_lhg_v1r_xpb">
+            <p class="- topic/p ">Your IDE will be able to read your tests <image class="- topic/image " href="file:/C:/Users/user/Desktop/Feature.PNG" id="unique_4_Connect_42_image_nrg_hbr_xpb" nd:nd-id="image_nrg_hbr_xpb" placement="inline"/></p>
+            <p class="- topic/p ">The Blue color of the Given, When, Then means the IDE reads the tests.</p>
+        </result>
     </taskbody>
-</task><task class="- topic/topic task/task " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="untitled4" oid="untitled4" specializations="@props/deliveryTarget">
+</task><task class="- topic/topic task/task " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="untitled4" oid="untitled4" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to Create feature files</ph></title>
     <shortdesc class="- topic/shortdesc ">To run your test you need steps to be followed. In the future files you will write
-        down your steps. Every web page in the given web site needs a separte feature
-        file</shortdesc>
+        down your steps. Every web page in the given web site needs a separate feature
+        file.</shortdesc>
     <taskbody class="- topic/body task/taskbody ">
         <context class="- topic/section task/context ">
-            <p class="- topic/p ">You will learn how to create feature files</p>
+            <p class="- topic/p ">You will learn how to create feature files :</p>
         </context>
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Create a  sepate folder for the feature files in the project</cmd>
+                <cmd class="- topic/ph task/cmd ">Create a separate  folder for the feature files in the project
+                        <image class="- topic/image " href="file:/C:/Users/user/Desktop/Create%20feature.PNG" id="unique_5_Connect_42_image_qmn_ybr_xpb" nd:nd-id="image_qmn_ybr_xpb" placement="inline"/></cmd>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Click with the right button of the mouse on the folder</cmd>
@@ -67,81 +175,167 @@
                 <cmd class="- topic/ph task/cmd ">Name the file in the name field</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Click on Save </cmd>
+                <cmd class="- topic/ph task/cmd ">Click on Add  <image class="- topic/image " href="file:/C:/Users/user/Desktop/Feature%20create.PNG" id="unique_5_Connect_42_image_dcb_dcr_xpb" nd:nd-id="image_dcb_dcr_xpb" placement="inline"/></cmd>
             </step>
         </steps>
+        <result class="- topic/section task/result " id="unique_5_Connect_42_result_ezq_fcr_xpb" nd:nd-id="result_ezq_fcr_xpb">
+            <p class="- topic/p ">You will be able to write down your tests.</p>
+            <p class="- topic/p ">For Example:</p>
+        </result>
+        <example class="- topic/example " id="unique_5_Connect_42_example_sdm_hcr_xpb" nd:nd-id="example_sdm_hcr_xpb">You want to create a couple of tests for a
+            Login.</example>
     </taskbody>
-</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d86e38" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Locators</ph></title><task class="- topic/topic task/task " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="untitled1" oid="untitled1" specializations="@props/deliveryTarget">
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d106e66" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Locators</ph></title><task class="- topic/topic task/task " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="untitled1" oid="untitled1" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to create locator variables</ph></title>
     <shortdesc class="- topic/shortdesc ">In order to perform an automation test we need locators for the Selenium to perform
-        actions on</shortdesc>
+        actions on.</shortdesc>
     <taskbody class="- topic/body task/taskbody ">
         <context class="- topic/section task/context ">
-            <p class="- topic/p ">In this topic we gonna found out how to create locators</p>
+            <p class="- topic/p ">In this topic we gonna found out how to create locators :</p>
         </context>
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Create a class named after the web page you are on ( every page of the web site
-                    must have separte class)</cmd>
+                    must have separte class).</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Create a variable as a private of type IWebElement</cmd>
+                <cmd class="- topic/ph task/cmd ">Create a variable as a private of type IWebElement.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Name the variable</cmd>
+                <cmd class="- topic/ph task/cmd ">Name the variable.         <image class="- topic/image " href="file:/C:/Users/user/Desktop/Locator.PNG" id="unique_6_Connect_42_image_x5r_2dr_xpb" nd:nd-id="image_x5r_2dr_xpb" placement="inline"/></cmd>
             </step>
         </steps>
+        <result class="- topic/section task/result " id="unique_6_Connect_42_result_n2m_ncr_xpb" nd:nd-id="result_n2m_ncr_xpb">
+            <p class="- topic/p ">You will learn how to find locators.</p>
+            <p class="- topic/p ">For Example: </p>
+        </result>
+        <example class="- topic/example " id="unique_6_Connect_42_example_ytw_4cr_xpb" nd:nd-id="example_ytw_4cr_xpb">You want to click on a login button. To do that you have
+            to find the locator and perform action on it. </example>
     </taskbody>
-</task><task class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="untitled2" oid="untitled2" specializations="@props/deliveryTarget">
+</task><task class="- topic/topic task/task " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="untitled2" oid="untitled2" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to find locators by Id</ph></title>
     <shortdesc class="- topic/shortdesc ">Locators can be found with many possible ways. One of them is by Id which is the most
         reliable one.</shortdesc>
     <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_7_Connect_42_prereq_tvn_hdr_xpb" nd:nd-id="prereq_tvn_hdr_xpb">
+            <p class="- topic/p ">Read how to create locator variables.</p>
+        </prereq>
         <context class="- topic/section task/context ">
-            <p class="- topic/p ">You will find out how to find locators  by id</p>
+            <p class="- topic/p ">You will find out how to find locators by id :</p>
         </context>
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Create a locator</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Go to the dom in the web site and search for the id of the given web
-                    element</cmd>
+                <cmd class="- topic/ph task/cmd ">Go to the dom in the web site and search for the id of the given web element
+                        <image class="- topic/image " href="file:/C:/Users/user/Desktop/BY%20id.PNG" id="unique_7_Connect_42_image_rf1_ldr_xpb" nd:nd-id="image_rf1_ldr_xpb" placement="inline"/></cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Use lambda =&gt; after the locator's name</cmd>
+                <cmd class="- topic/ph task/cmd ">Use lambda =&gt; after the locator's name or = </cmd>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Use the command driver.FindBy(By.id()) after the lambda</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Put the id into the By.id brackets as a string</cmd>
+                <cmd class="- topic/ph task/cmd ">Put the id into the By.id brackets   <image class="- topic/image " href="file:/C:/Users/user/Desktop/Find%20element%20by%20id.PNG" id="unique_7_Connect_42_image_sgt_tdr_xpb" nd:nd-id="image_sgt_tdr_xpb" placement="inline"/></cmd>
             </step>
         </steps>
+        <result class="- topic/section task/result " id="unique_7_Connect_42_result_vtf_5dr_xpb" nd:nd-id="result_vtf_5dr_xpb">
+            <p class="- topic/p ">You will be able to perform action on the locator</p>
+        </result>
     </taskbody>
-</task><task class="- topic/topic task/task " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="untitled3" oid="untitled3" specializations="@props/deliveryTarget">
+</task><task class="- topic/topic task/task " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="untitled3" oid="untitled3" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to find locators by Class Name</ph></title>
     <shortdesc class="- topic/shortdesc ">Locators can be found with many possible ways. One of them is by class name which is
         the most reliable one after id.</shortdesc>
     <taskbody class="- topic/body task/taskbody ">
-        <context class="- topic/section task/context ">You will find out how to find locators by class name<p class="- topic/p "/></context>
+        <prereq class="- topic/section task/prereq " id="unique_8_Connect_42_prereq_hjw_vdr_xpb" nd:nd-id="prereq_hjw_vdr_xpb">
+            <p class="- topic/p ">Read how to create local variables</p>
+        </prereq>
+        <context class="- topic/section task/context ">You will find out how to find locators by class name :</context>
         <steps class="- topic/ol task/steps ">
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Create a locator</cmd>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Go to the dom in the web site and search for the class name of the given web
-                    element</cmd>
+                    element <image class="- topic/image " href="file:/C:/Users/user/Desktop/By%20Class.PNG" id="unique_8_Connect_42_image_cgj_12r_xpb" nd:nd-id="image_cgj_12r_xpb" placement="inline"/></cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Use lambda =&gt; after the locator's name</cmd>
+                <cmd class="- topic/ph task/cmd ">Use lambda =&gt; after the locator's name or =</cmd>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Use the command driver.FindBy(By.className()) after the lambda</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Put the class into the by.className brackets as a string</cmd>
+                <cmd class="- topic/ph task/cmd ">Put the class into the by.className brackets   <image class="- topic/image " href="file:/C:/Users/user/Desktop/Find%20by%20classname.PNG" id="unique_8_Connect_42_image_zpw_32r_xpb" nd:nd-id="image_zpw_32r_xpb" placement="inline"/></cmd>
             </step>
         </steps>
+        <result class="- topic/section task/result " id="unique_8_Connect_42_result_jg4_xdr_xpb" nd:nd-id="result_jg4_xdr_xpb">
+            <p class="- topic/p ">You will be able to perform action on the locator</p>
+        </result>
     </taskbody>
-</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d86e73" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Hooks</ph></title></topic></map>
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d106e101" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Hooks</ph></title><task class="- topic/topic task/task " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="untitled5" oid="untitled5" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to create your webdriver</ph></title>
+    <shortdesc class="- topic/shortdesc ">In order to run your test on a certain browser you need to do some architecture work
+        such as initiating the webdriver of the given browser you want</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_9_Connect_42_prereq_b4b_52r_xpb" nd:nd-id="prereq_b4b_52r_xpb">
+            <p class="- topic/p ">
+                <ol class="- topic/ol " id="unique_9_Connect_42_ol_uzv_2fr_xpb" nd:nd-id="ol_uzv_2fr_xpb">
+                    <li class="- topic/li ">Every browser has a different webdriver. If you want cross browser testing
+                        you need to initialize a webdriver for every browser</li>
+                    <li class="- topic/li ">Get familiar with annotations</li>
+                </ol>
+            </p>
+        </prereq>
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">Here you will find out how to initilize a webdriver :</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Create a separate class named Hooks and use [Binding] annotation</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Initiate the webdriver in a method and use [BeforeScenario] annotation over the
+                    method <image class="- topic/image " href="file:/C:/Users/user/Desktop/BeforeHook.PNG" id="unique_9_Connect_42_image_wnq_4fr_xpb" nd:nd-id="image_wnq_4fr_xpb" placement="inline"/></cmd>
+            </step>
+        </steps>
+        <result class="- topic/section task/result " id="unique_9_Connect_42_result_jxg_vfr_xpb" nd:nd-id="result_jxg_vfr_xpb">
+            <p class="- topic/p ">You will be able to run your test in the given browser</p>
+        </result>
+    </taskbody>
+</task><task class="- topic/topic task/task " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="how_to_close_your_driver" oid="how_to_close_your_driver" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to close your webdriver</ph></title>
+    <shortdesc class="- topic/shortdesc ">To finish your test successfully you have to close your driver</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_10_Connect_42_prereq_hzz_bgr_xpb" nd:nd-id="prereq_hzz_bgr_xpb">
+            <p class="- topic/p ">Read the document of how to create your webdriver :</p>
+        </prereq>
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">Here you will learn how to make the hook to be able to finish your test</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Go to the Hooks class you have created </cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Close the webdriver in a method and use [AfterScenario] annotation over the
+                        method<image class="- topic/image " href="file:/C:/Users/user/Desktop/After.PNG" id="unique_10_Connect_42_image_uxs_tgr_xpb" nd:nd-id="image_uxs_tgr_xpb" placement="inline"/>
+                </cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Inherit the page hook into your class of the given page
+                        <image class="- topic/image " href="file:/C:/Users/user/Desktop/Inheritance.PNG" id="unique_10_Connect_42_image_hz5_5fr_xpb" nd:nd-id="image_hz5_5fr_xpb" placement="inline"/>
+                </cmd>
+            </step>
+        </steps>
+        <result class="- topic/section task/result " id="unique_10_Connect_42_result_s2d_ggr_xpb" nd:nd-id="result_s2d_ggr_xpb">
+            <p class="- topic/p ">You will be able to finish your test successfully </p>
+        </result>
+        <example class="- topic/example " id="unique_10_Connect_42_example_sm5_hgr_xpb" nd:nd-id="example_sm5_hgr_xpb">If you want to run your next test you will have to create
+            a new webdriver. In order to create a new one you need to close the old one. That's why
+            its so important to close your driver</example>
+    </taskbody>
+</task></topic></map>

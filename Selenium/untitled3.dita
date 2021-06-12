@@ -5,24 +5,31 @@
     <shortdesc>Locators can be found with many possible ways. One of them is by class name which is
         the most reliable one after id.</shortdesc>
     <taskbody>
-        <context>You will find out how to find locators by class name<p/></context>
+        <prereq id="prereq_hjw_vdr_xpb">
+            <p>Read how to create local variables</p>
+        </prereq>
+        <context>You will find out how to find locators by class name :</context>
         <steps>
             <step>
                 <cmd>Create a locator</cmd>
             </step>
             <step>
                 <cmd>Go to the dom in the web site and search for the class name of the given web
-                    element</cmd>
+                    element <image href="../By%20Class.PNG" id="image_cgj_12r_xpb"/></cmd>
             </step>
             <step>
-                <cmd>Use lambda => after the locator's name</cmd>
+                <cmd>Use lambda => after the locator's name or =</cmd>
             </step>
             <step>
                 <cmd>Use the command driver.FindBy(By.className()) after the lambda</cmd>
             </step>
             <step>
-                <cmd>Put the class into the by.className brackets as a string</cmd>
+                <cmd>Put the class into the by.className brackets   <image
+                        href="../Find%20by%20classname.PNG" id="image_zpw_32r_xpb"/></cmd>
             </step>
         </steps>
+        <result id="result_jg4_xdr_xpb">
+            <p>You will be able to perform action on the locator</p>
+        </result>
     </taskbody>
 </task>
